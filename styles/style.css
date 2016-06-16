@@ -1,0 +1,95 @@
+#container {
+	display: flex;
+	padding-left: 10px;
+}	
+
+#rightCol {
+	flex: 3;
+	padding-left: 20px;
+}
+
+#leftCol {
+	flex: 1;
+}
+
+.profile {
+	border-radius: 7px;
+}
+.fullName {
+	margin: 1px
+}
+.login {
+	color: #666666;
+	margin: 1px;
+	border-bottom: 1px solid #e0e0eb;
+	padding-bottom: 15px;
+}
+.location {
+	margin: 1px;
+	padding-bottom: 0px;
+	padding-top: 10px;
+	font-size: 11pt;
+}
+.email {
+	margin: 1px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 11pt;
+	color: #3366cc;
+}
+.joinDate {
+	margin: 1px;
+	border-bottom: 1px solid #e0e0eb;
+	padding-bottom: 15px;
+	font-size: 11pt;
+}
+.followersBar {
+	display: flex;
+	text-align: center;
+	font-size: 12pt;
+	justify-content: space-around;
+	margin: 0px;
+	border-bottom: 1px solid #e0e0eb;
+	padding-bottom: 10px
+}
+.noMarginBottom {
+	margin-bottom: 0px;
+	color: #3366cc;
+}
+.noMarginTop {
+	margin-top: 0;
+	color: #808080;
+	font-size: 10pt;
+}
+h4 {
+	margin-bottom: 15px;
+}
+.searchBox {
+	border-top: .5px solid #808080
+
+}
+.repoCard {
+	border-top: 1px solid white;
+	margin-top: 3px;
+
+}
+.repoName {
+	color: #3366cc;
+	border-top: 1px solid #e0e0eb;
+	padding-top: 30px; 
+	margin-top: 3px;
+	margin-bottom: 5px;
+
+}
+
+.description {
+	color: #666666;
+	font-size: 12pt;
+}
+
+.updated {
+	color: #808080;
+	font-size: 12pt;
+	padding-bottom: 30px;
+	margin-bottom: 5px;
+}
